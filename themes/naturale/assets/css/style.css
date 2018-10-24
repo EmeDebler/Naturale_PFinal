@@ -1,0 +1,294 @@
+body {
+  margin:0;
+  padding: 0;
+  font-family: Vollkorn;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav_color{
+  background-color: #53A907;
+}
+#nav_ico{
+	color: white;
+	font-size: 22px;
+}
+.parrafo{
+ font-family: Vollkorn;
+}
+.font_title{
+font-family: dancing script;
+}
+#nav_font{
+	color: white;
+  font-family: gabriela;
+  background-color: #53A907;
+}
+.titulo{
+  color: #86AA00;
+  font-family: dancing script;
+  font-size: 67px;
+  text-shadow: #000C0C 2px 2px 3px;
+}
+.titulo_2{
+  color: #c9bb21;
+  font-family: dancing script;
+  font-size: 50px;
+  text-shadow: #000C0C 3px 3px 6px;
+}
+h1 #font-size{
+  font-size: 5rem;
+}
+.img_color{
+ background-color: #CEFAA7;
+}
+.img_border{
+  border-radius: 50%;
+  border: 3px solid #DCFA57;
+}
+.parrafo_1{
+ background-color: #CEFAA7;
+ font-family: gabriela;
+}
+.parrafo_color{
+ background-color: #CEFAA7;
+ font-family: Vollkorn;
+}
+.main_color{
+ background: #CEFAA7;
+}
+.main_font{
+	color: #096102;
+  font-family: gabriela;
+  padding-top: 30%;
+}
+.font_ico{
+ color: #1BC7CC;
+ font-family: gabriela;
+}
+.main_ico{
+	color: #1BC7CC;
+	font-size: 4rem;
+	line-height: 1rem;
+}
+.pulse{
+  position: absolute;
+  top: 50%
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 65px;
+  height: 5px;
+}
+.pulse:before,
+.pulse:after{
+  content: '' ;
+  display: block;
+  position: absolute;
+  border: 50%;
+  border: 1px solid #1BC7CC;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -10px;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    transform: scale(2,5);
+    opacity: 0;
+  }
+}
+.font_ico_2{
+ color: #FEC31B;
+ font-family: gabriela;
+ padding-bottom: 70px;
+}
+.main_ico_2{
+  color: #FEC31B;
+  font-size: 4rem;
+  line-height: 1rem;
+}
+.pulse_2{
+  position: absolute;
+  top: 50%
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 65px;
+  height: 5px;
+}
+.pulse_2:before,
+.pulse_2:after{
+  content: '' ;
+  display: block;
+  position: absolute;
+  border: 50%;
+  border: 1px solid #FEC31B;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -10px;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    transform: scale(2,5);
+    opacity: 0;
+  }
+}
+.font_ico_3{
+ color: #3BE52E;
+ font-family: gabriela;
+ padding-bottom: 70px;
+}
+.main_ico_3{
+  color: #3BE52E;
+  font-size: 4rem;
+  line-height: 1rem;
+}
+.pulse_3{
+  position: absolute;
+  top: 50%
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 65px;
+  height: 5px;
+}
+.pulse_3:before,
+.pulse_3:after{
+  content: '' ;
+  display: block;
+  position: absolute;
+  border: 50%;
+  border: 1px solid #3BE52E;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -10px;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    transform: scale(2,5);
+    opacity: 0;
+  }
+}
+.main_ico_4{
+  color: #3BE52E;
+  font-size: 3rem;
+  line-height: 1rem;
+}
+.main_ico_5{
+  color: #3BE52E;
+  font-size: 30px;
+}
+.main_padding{
+  margin-top: 400px;
+}
+
+#galeria{
+  padding: 20px;
+  padding-bottom: 0;
+  width: 50rem;
+  margin: auto;
+}
+#imgmostrar{
+  border: 1px solid #f2f2f2;
+  border-radius: 25px;
+  width: 50em;
+  height: 25em;
+}
+#galeria_miniaturas{
+  display: table;
+  margin: 0px auto;
+}
+.miniatura{
+  width: 5rem;
+  height: 2,5rem;
+  border-radius: 10px;
+  float-left;
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px 5px;
+}
+.footer_color{
+	background-color: #53A907;
+  width: 100%;
+  padding: 1px;
+  color: white;
+}
+.footer_ico{
+  position: relative;
+  top: 5px;
+  font-size: 24px;
+
+}
+.footer_mr{
+  margin-left: 30px;
+}
+.foo_ico_color{
+  color: white;
+  font-size: 30px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) 
+{
+  span .none{
+    display: none; 
+  }	
+  div .none{
+    display: none; 
+  }
+  @media only screen and (min-width: 600px) 
+  {
+    i .none_btn{
+      display: none;
+    }
+div#post-jumbotron {
+  background-attachment:  fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: gabriela;
+}
+#btn-single{
+ background-color: #3BE52E; 
+ color: white;
+ font-size: 14px ;
+ font-family: gabriela;
+}
+.font_main{
+  font-family: gabriela;
+}
+.color_foot{
+  color: white;
+}
