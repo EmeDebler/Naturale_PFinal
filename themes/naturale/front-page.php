@@ -8,7 +8,9 @@
          <hr color="DCFA57" width="500">
          <p class="parrafo_color">Nuestra página está enfocada en informar y prestar servicios de calidad en el área salud para nuestra comuna, aportando en terapias alternativas que sirven de apoyo para diferentes patologías todo bajo la asesoría de un equipo de especialistas certificados en el área de la medicina holística y sus ramas.</p>
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-4 img_color text-center">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/zQB6THiHtPU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zQB6THiHtPU" allowfullscreen></iframe>
+              </div>
         </div>
         <hr color="DCFA57">
         </div>
