@@ -2,9 +2,9 @@
 <!--galeria-->
   <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-4 text-center">
    <h1 class="font_title">Tipos de Terapias</h1>
-    <div id="galeria">
+    <div id="galeria" class="img-fluid">
       <div id="galeria_base">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/7.jpg" id="imgmostrar" alt="">
+        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/7.jpg" id="imgmostrar" alt="">
       </div>
       <div id="galeria_miniaturas">
         <img class="miniatura" src="<?php echo get_template_directory_uri(); ?>/assets/img/7_min.jpg" alt="" onclick="document.getElementById('imgmostrar').src='<?php echo get_template_directory_uri(); ?>/assets/img/7.jpg';">
