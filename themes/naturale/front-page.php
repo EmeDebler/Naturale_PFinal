@@ -13,14 +13,14 @@
         <hr color="DCFA57">
         </div>
 <!--prueba icono-->
-      <div class="col-12 col-sm-11 col-md-4 col-lg-4 text-center font_ico"><h1>Consejos</h1>
-        <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/noticias/"><span class="main_ico pulse"><i class="fas fa-spa"></i></span></a> 
+      <div class="col-12 col-sm-10 col-md-4 col-lg-4 text-center font_ico none"><h1>Consejos</h1>
+        <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/noticias/"><span class="main_ico pulse none"><i class="fas fa-spa"></i></span></a> 
       </div>
-      <div class="col-12 col-sm-11 col-md-4 col-lg-4 text-center font_ico_2"><h1>Contacto</h1>
-        <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/contacto/"><span class="main_ico_2 pulse_2"><i class="fas fa-headset"></i></span></a> 
+      <div class="col-12 col-sm-10 col-md-4 col-lg-4 text-center font_ico_2 none"><h1>Contacto</h1>
+        <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/contacto/"><span class="main_ico_2 pulse_2 none"><i class="fas fa-headset"></i></span></a> 
       </div>
-      <div class="col-12 col-sm-11 col-md-4 col-lg-4 text-center font_ico_3"><h1>Blog</h1>
-       <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/blog/"><span class="main_ico_3 pulse_3"><i class="fas fa-leaf"></i></span></a>  
+      <div class="col-12 col-sm-10 col-md-4 col-lg-4 text-center font_ico_3 none"><h1>Blog</h1>
+       <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/blog/"><span class="main_ico_3 pulse_3 none"><i class="fas fa-leaf"></i></span></a>  
      </div>
 <!--Articulo 2-->
      <div class="col-12 col-sm-12 col-md-12 col-lg-12 pt-2 mt-2 img_color text-center">
