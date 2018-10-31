@@ -82,8 +82,27 @@ function thumbnails_setup() {
 
  add_filter( 'image_size_names_choose', 'dl_image_sizes' );
   
- // Register Custom Post Type
-function custom_post_type() {
+  }
+  add_action( 'after_setup_theme', 'thumbnails_setup' );
+
+  //menu 
+
+   function menus_setup(){
+    register_nav_menus(
+    array(
+      'header-menu' => _( 'Header Menu' ),
+      'footer-menu' => _( 'Footer Menu' ),
+      )
+    );
+  } 
+
+  add_action( 'after_setup_theme', 'menus_setup' );
+  
+  
+
+  // Register Custom Post Type
+
+  function custom_post_type() {
 
 	$labels = array(
 		'name'                  => _x( 'articulos', 'Post Type General Name', 'text_domain' ),

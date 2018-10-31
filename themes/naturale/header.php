@@ -10,7 +10,7 @@
   <header>
 <!--navbar--> 
     <nav class="nav_position navbar navbar-expand-xl navbar-light  nav_color">
-      <a class="navbar-brand" id="nav_ico" href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/home/"><i class="fas fa-home"></i></a>
+      <a class="navbar-brand" id="nav_ico" href="<?php bloginfo('url'); ?>/home/"><i class="fas fa-home"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,6 +33,17 @@
           </li>
         </ul>
       </div>
+
+       <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
+        <?php wp_nav_menu( array(
+         'theme_location' => 'header-menu',
+         'container_id'   => 'navbarNavDropdown',
+         'container_class' => 'collapse navbar-collapse',
+         'menu_class'      => 'navbar-nav'
+
+        )
+      ); ?>
+    <?php } ?>
     </nav>
 <!--fin navbar-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
