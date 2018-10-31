@@ -20,16 +20,16 @@
            <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-           <a class="nav-link" id="nav_font" href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/terapias/">Terapias</a>
+           <a class="nav-link" id="nav_font" href="<?php bloginfo('url'); ?>/terapias/">Terapias</a>
           </li>
           <li class="nav-item">
-           <a class="nav-link" id="nav_font" href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/blog/">Blog</a>
+           <a class="nav-link" id="nav_font" href="<?php bloginfo('url'); ?>/blog/">Blog</a>
           </li>
           <li class="nav-item">
-           <a class="nav-link" id="nav_font" href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/noticias/">Noticias</a>
+           <a class="nav-link" id="nav_font" href="<?php bloginfo('url'); ?>/noticias/">Noticias</a>
           </li>
           <li class="nav-item">
-           <a class="nav-link" id="nav_font" href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/contacto/">Contacto</a>
+           <a class="nav-link" id="nav_font" href="<?php bloginfo('url'); ?>/contacto/">Contacto</a>
           </li>
         </ul>
       </div>
