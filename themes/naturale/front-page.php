@@ -16,13 +16,13 @@
         </div>
 <!--prueba icono-->
       <div class="col-12 col-sm-10 col-md-4 col-lg-4 text-center font_ico none"><h1>Consejos</h1>
-        <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/noticias/"><span class="main_ico pulse"><i class="fas fa-spa"></i></span></a> 
+        <a href="<?php bloginfo('url'); ?>/noticias/"><span class="main_ico pulse"><i class="fas fa-spa"></i></span></a> 
       </div>
       <div class="col-12 col-sm-10 col-md-4 col-lg-4 text-center font_ico_2"><h1>Contacto</h1>
-        <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/contacto/"><span class="main_ico_2 pulse_2"><i class="fas fa-headset"></i></span></a> 
+        <a href="<?php bloginfo('url'); ?>/contacto/"><span class="main_ico_2 pulse_2"><i class="fas fa-headset"></i></span></a> 
       </div>
       <div class="col-12 col-sm-10 col-md-4 col-lg-4 text-center font_ico_3 none"><h1>Blog</h1>
-       <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/blog/"><span class="main_ico_3 pulse_3"><i class="fas fa-leaf"></i></span></a>  
+       <a href="<?php bloginfo('url'); ?>/blog/"><span class="main_ico_3 pulse_3"><i class="fas fa-leaf"></i></span></a>  
      </div>
 <!--Articulo 2-->
      <div class="col-12 col-sm-12 col-md-12 col-lg-12 pt-2 mt-2 img_color text-center">
@@ -36,10 +36,52 @@
       <p class="parrafo_color">Otras prácticas aparentemente menos complejas son el Reiki, la aromoterapia, el quiromasaje, etc. Hoy en día se asume que todas las medicinas trabajan en forma complementaria, por lo cual a futuro se tiende a  hablar de una Medicina Integrativa.</p>
 
      <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-4 img_color text-center">
-        <a href="<?php bloginfo('http://186.64.118.50/~mpetorres/'); ?>/terapias/"><span class="main_ico_4"><i class="fas fa-chevron-circle-down"></i></span></a>
+        <a href="<?php bloginfo('url'); ?>/terapias/"><span class="main_ico_4"><i class="fas fa-chevron-circle-down"></i></span></a>
      </div>
     <hr color="DCFA57">
      </div>
+<!--Artículos-->
+
+<section class="p-0" id="portfolio">
+<div class="container img-fliud">
+<h2 class="section-heading text-center p-2">Terapias Destacadas</h2>
+<hr class="my-4" color="DCFA57">
+<div class="row no-gutters popup-gallery">
+  <?php 
+    $arg = array(
+      'post_type'  => 'articulo',
+      'posts_per_page'  => 6  
+    );
+
+    $get_arg = new WP_Query( $arg );
+
+    while ( $get_arg->have_posts() ) {
+      $get_arg->the_post();
+  ?>
+
+   <div class="col-lg-4 col-sm-6">
+    <a class="portfolio-box" href="<?php the_post_thumbnail_url( 'large' ) 
+    ?>">
+    <?php the_post_thumbnail( '', array( 'class' => 'img-fluid' ) );
+     ?>
+    <div class="portfolio-box-caption">
+      <div class="portfolio-box-caption-content">
+        <div class="project-category text-faded">
+          <?php the_title() ?>
+        </div>
+        <div class="project-name">
+        <?php the_content() ?>
+        </div>
+      </div>
+    </div>
+    </a>
+   </div>
+
+  <?php } wp_reset_postdata();
+ ?>
+</div>
+</div>
+</section>
 <!--logo Quilicura-->
      <div class="col-12 col-sm-12 col-md-4 col-lg-4 p-4 text-center parrafo_color">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo2.png" width="115" alt="">

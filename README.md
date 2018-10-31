@@ -14,7 +14,7 @@ La versión móvil dará énfasis a mostrar nuestro footer con redes sociales ya
 
 ###ui: 
 
-La página será responsiva, tipo blog, con un navbar de 5 link (misión, blog, centros terapéuticos, compras online y contáctanos), tendrá un icono al costado derecho que llevara al inicio de la página junto con un banner que cambiará según la página en la que el usuario se encuentre.
+La página será responsiva, tipo blog, con un navbar de 4 link (Terapias, blog, noticias y contacto), tendrá un icono al costado derecho que llevara al inicio de la página.
 Nuestra main se divide en 2 artículos, para los cuales se utilizarán grillas de bootstrap,en medio se mostraran 3 link de acceso rápido a consejos,noticias y blog donde se mostrara información relevante sobre las terapias y nuestros terapeutas. El footer tendrá 3 iconos que llevan directo a nuestras redes sociales.
 La versión móvil mantendrá sus artículos, video informativo y solo se mantendrá  link  de contacto,
 En el  navbar los link estarán contenidos en una hamburguesa sacada de bootstrap. La main está conformada por  grillas responsivas para que se distribuyan correctamente al tamaño móvil, dicha grilla será de tamaño S y se realizará en  nuestra página con estilo propio en CSS. En su footer mantendrá los iconos de las redes sociales en tamaño rem para que se ajuste a la resolución de la ventana del navegador además se agrego "position fixed" para que este siempre este visible.

@@ -38,6 +38,49 @@
      </div>
     <hr color="DCFA57">
      </div>
+
+<!--Artículos-->
+
+<section class="p-0" id="portfolio">
+<div class="container img-fliud">
+<h2 class="section-heading text-center p-2">Terapias Destacadas</h2>
+<hr class="my-4" color="DCFA57">
+<div class="row no-gutters popup-gallery">
+  <?php 
+    $arg = array(
+      'post_type'  => 'articulo',
+      'posts_per_page'  => 6  
+    );
+
+    $get_arg = new WP_Query( $arg );
+
+    while ( $get_arg->have_posts() ) {
+      $get_arg->the_post();
+  ?>
+
+   <div class="col-lg-4 col-sm-6">
+    <a class="portfolio-box" href="<?php the_post_thumbnail_url( 'large' ) 
+    ?>">
+    <?php the_post_thumbnail( '', array( 'class' => 'img-fluid' ) );
+     ?>
+    <div class="portfolio-box-caption">
+      <div class="portfolio-box-caption-content">
+        <div class="project-category text-faded">
+          <?php the_title() ?>
+        </div>
+        <div class="project-name">
+        <?php the_content() ?>
+        </div>
+      </div>
+    </div>
+    </a>
+   </div>
+
+  <?php } wp_reset_postdata();
+ ?>
+</div>
+</div>
+</section>
 <!--logo Quilicura-->
      <div class="col-12 col-sm-12 col-md-4 col-lg-4 p-4 text-center parrafo_color">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo2.png" width="115" alt="">
