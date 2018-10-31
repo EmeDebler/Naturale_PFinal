@@ -26,7 +26,7 @@
 <!--Articulo 2-->
      <div class="col-12 col-sm-12 col-md-12 col-lg-12 pt-2 mt-2 img_color text-center">
     <hr color="DCFA57">
-      <h1 class="parrafo_1">Terapias Complementarias/Alternativas (MCA)</h1>
+      <h1 class="parrafo_1">Terapias Complementarias</h1>
     <hr color="DCFA57" width="500">
       <p class="parrafo_color">Las terapias complementarias son alternativas que pueden desempeñar alguna función en un programa de tratamiento integral diseñado por usted y el profesional de la salud que lo atiende.
         La eficacia de una terapia complementaria está respaldada por diversos estudios confiables.

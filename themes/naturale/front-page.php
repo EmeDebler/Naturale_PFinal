@@ -1,20 +1,22 @@
 <?php get_header(); ?>
-<main class="main_color">
-  <div class="container">
-    <div class="row">
+
+<main class="main_color text-center">
+ 
 <!--Articulo 1-->
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-4 img_color text-center">
-         <h1 class="parrafo_1">Misión</h1>
-         <hr color="DCFA57" width="500">
+     <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <h1 class="parrafo_1">Misión</h1>
+         <hr color="DCFA57">
          <p class="parrafo_color">Nuestra página está enfocada en informar y prestar servicios de calidad en el área salud para nuestra comuna, aportando en terapias alternativas que sirven de apoyo para diferentes patologías todo bajo la asesoría de un equipo de especialistas certificados en el área de la medicina holística y sus ramas.</p>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-4 img_color text-center">
-              <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zQB6THiHtPU" allowfullscreen></iframe>
-              </div>
-        </div>
-        <hr color="DCFA57">
-        </div>
+      </div> 
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zQB6THiHtPU" allowfullscreen></iframe>
+          </div>
+<hr color="DCFA57">
+        
 <!--prueba icono-->
+    
+    <div class="container">
+    <div class="row">
       <div class="col-12 col-sm-10 col-md-4 col-lg-4 text-center font_ico none"><h1>Consejos</h1>
         <a href="<?php bloginfo('url'); ?>/noticias/"><span class="main_ico pulse"><i class="fas fa-spa"></i></span></a> 
       </div>
@@ -23,12 +25,14 @@
       </div>
       <div class="col-12 col-sm-10 col-md-4 col-lg-4 text-center font_ico_3 none"><h1>Blog</h1>
        <a href="<?php bloginfo('url'); ?>/blog/"><span class="main_ico_3 pulse_3"><i class="fas fa-leaf"></i></span></a>  
-     </div>
+      </div>
+    </div>
+    </div>
 <!--Articulo 2-->
-     <div class="col-12 col-sm-12 col-md-12 col-lg-12 pt-2 mt-2 img_color text-center">
+     <div class="text-center">
     <hr color="DCFA57">
-      <h1 class="parrafo_1">Terapias Complementarias/Alternativas (MCA)</h1>
-    <hr color="DCFA57" width="500">
+      <h1 class="parrafo_1">Terapias Complementarias</h1>
+    <hr color="DCFA57">
       <p class="parrafo_color">Las terapias complementarias son alternativas que pueden desempeñar alguna función en un programa de tratamiento integral diseñado por usted y el profesional de la salud que lo atiende.
         La eficacia de una terapia complementaria está respaldada por diversos estudios confiables.
       Por lo general, las terapias complementarias son indicadas por profesionales médicos con la finalidad de complementar a un tratamiento convencional.</p>
@@ -40,8 +44,9 @@
      </div>
     <hr color="DCFA57">
      </div>
-
 <!--logo Quilicura-->
+ <div class="container">
+    <div class="row">
      <div class="col-12 col-sm-12 col-md-4 col-lg-4 p-4 text-center parrafo_color">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo2.png" width="115" alt="">
      </div>
@@ -54,5 +59,8 @@
      <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-4 parrafo_color"></div>
     </div>
   </div>
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-4 parrafo_color"></div>
+
 </main>
+
 <?php get_footer(); ?>
